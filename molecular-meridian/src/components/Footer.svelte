@@ -4,6 +4,7 @@
             <li><a href="https://github.com/rellubc" aria-label="github"><i class="devicon-github-original"></i></a></li>
             <li><a href="https://linkedin.com/ryantran847" aria-label="linkedin"><i class="devicon-linkedin-plain"></i></a></li>
             <li><a href="mailto:ryan.tran231@gmail.com" aria-label="email"><i class="fa-regular fa-envelope"></i></a></li>
+            <li><a href="/website/ryan_tran_resume.pdf" download="ryan_tran_resume" aria-label="resume"><i class="fa-regular fa-file-pdf"></i></a></li>
         </div>
         <div class="right-cluster">
             <li><a href="#Me">Me</a></li>
