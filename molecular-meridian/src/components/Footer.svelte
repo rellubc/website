@@ -2,7 +2,7 @@
     <div class="footer-details">
         <div class="contact">
             <li><a href="https://github.com/rellubc" aria-label="github"><i class="devicon-github-original"></i></a></li>
-            <li><a href="https://linkedin.com/ryantran-847" aria-label="linkedin"><i class="devicon-linkedin-plain"></i></a></li>
+            <li><a href="https://linkedin.com/ryantran847" aria-label="linkedin"><i class="devicon-linkedin-plain"></i></a></li>
             <li><a href="mailto:ryan.tran231@gmail.com" aria-label="email"><i class="fa-regular fa-envelope"></i></a></li>
         </div>
         <div class="right-cluster">
