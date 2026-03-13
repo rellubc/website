@@ -1,10 +1,10 @@
 ---
+import About from '../components/About.svelte';
 import Experiences from '../components/Experiences.svelte';
 import Footer from '../components/Footer.svelte';
 import Me from '../components/Me.svelte';
 import Navbar from '../components/Navbar.svelte';
 import Projects from '../components/Projects.svelte';
-import Skills from '../components/Skills.svelte';
 
 import Layout from '../layouts/Layout.astro';
 ---
@@ -13,6 +13,7 @@ import Layout from '../layouts/Layout.astro';
 	<Navbar />
 	<main>
 		<Me />
+		<About />
 		<Projects />
 		<Experiences />
 	</main>
@@ -21,8 +22,18 @@ import Layout from '../layouts/Layout.astro';
 
 <style>
 	main {
-		width: 1200px;
+		max-width: 1200px;
 		margin: auto;
 		margin-top: 4rem;
+	}
+
+	:global(a) {
+        text-decoration: none;
+        color: inherit;
+	}
+
+	:global(section) {
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 </style>

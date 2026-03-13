@@ -6,6 +6,8 @@
     export let roles: string[]
     export let period: string
     export let techStack: string[]
+    export let shortName: string
+    export let images: number
 </script>
 
 <div class="project-info">
@@ -23,16 +25,39 @@
 
         <TechStack techStack={techStack} />
     </div>
-    <div class="image-placeholder">Image placeholder</div>
+    <div class="images" style={`grid-template-columns: repeat(${images > 2 ? Math.ceil(images / 2) : images}, 1fr)`}>
+        {#each { length: images } as _, i }
+            <img src={`/${shortName}${i}.png`} alt={`${shortName}${i} image`}/>
+        {/each}
+    </div>
 </div>
 
 <style>
     .project-info {
+        height: 18rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
-        gap: 2rem;
+
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        overflow: hidden;
+    }
+
+    @media (max-width: 1200px) {
+        .project-info {
+            flex-direction: column;
+            height: auto;
+        }
+        
+        .images {
+            max-width: 100%;
+        }
+    }
+
+    .project-details {
+        flex: 1;
+        padding: 1rem;
     }
 
     .project-details-header {
@@ -56,16 +81,19 @@
         align-items: center;
     }
 
-    .image-placeholder {
-        height: 22.5rem;
-        width: 40rem;
+    .images {
+        height: 100%;
+        max-width: 32rem;
 
         flex: 0 0 auto;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
 
-        border: 1px solid black;
+        border-left: 1px solid #ddd;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
     }
 </style>

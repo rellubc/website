@@ -9,11 +9,13 @@
         <Project 
             title="Sydney Transport Realtime Tracker"
             descriptions={[
-                "A real time tracker for the Sydney Trains and Sydney Metro networks.", 
+                "A real time tracker for the Sydney Trains and Sydney Metro networks, including real time stopping patterns, schedules and occupancies for both vehicles and stations.", 
                 "Inspired by my interest in Sydney's public transport network."
             ]}
             period="January 2026 - Present"
             techStack={["Angular", "ASP.NET Core", "MySQL"]}
+            shortName="transport"
+            images=1
         />
         <Project 
             title="Baked By Dora: Bakery & Cafe"
@@ -24,6 +26,8 @@
             roles="Full-Stack Lead"
             period="December 2025 - Present"
             techStack={["Next.js", "Supabase", "Tailwind CSS"]}
+            shortName="bbd"
+            images=1
         />
         <Project 
             title="EcoM Dashboard"
@@ -34,6 +38,8 @@
             roles="Scrum Master | Frontend Lead"
             period="September 2024 - November 2024"
             techStack={["React", "Node.js", "Express", "PostgreSQL", "Tailwind CSS"]}
+            shortName="ecom"
+            images=4
         />
         <Project
             title="When2Eat"
@@ -44,14 +50,18 @@
             roles="Training Lead"
             period="July 2025 - September 2025"
             techStack={["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"]}
+            shortName="w2e"
+            images=1
         />
         <Project
             title="Website Portfolio"
             descriptions={[
-                "This site here, made to showcase projects I have undertaken and experience with various tech stacks.",
+                "This site here, made to showcase projects I have undertaken using various technologies.",
             ]}
             period="March 2026"
             techStack={["HTML", "CSS", "Svelte"]}
+            shortName="website"
+            images=1
         />
     </div>
 </section>
@@ -60,6 +70,7 @@
     .projects-listings {
         display: flex;
         flex-direction: column;
-        gap: 4rem;
+        gap: 2rem;
+        margin-bottom: 30vh;
     }
 </style>

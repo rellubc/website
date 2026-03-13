@@ -5,6 +5,7 @@
         </div>
         <div class="right-cluster">
             <li><a href="#Me">Me</a></li>
+            <li><a href="#About">About</a></li>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Experience">Experience</a></li>
         </div>
@@ -22,17 +23,16 @@
         display: flex;
         justify-content: center;
 
-        border-bottom: 1px solid black;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     nav {
         background-color: white;
         height: 4rem;
-        width: 75rem;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 1rem;
 
         padding: 0 2rem 0 2rem;
     }

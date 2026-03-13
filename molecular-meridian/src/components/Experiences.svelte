@@ -1,6 +1,5 @@
 <script>
   import Experience from "./experiences/Experience.svelte";
-
 </script>
 
 <section id="Experience">
@@ -13,7 +12,8 @@
                     descriptions: [
                         "Barista"
                     ],
-                    period: "January 2025 - Present"
+                    period: "January 2025 - Present",
+                    shortName: "bbd"
                 }
             }}
         />
@@ -25,7 +25,8 @@
                     descriptions: [
                         "Training Lead"
                     ],
-                    period: "July 2025 - September 2025"
+                    period: "July 2025 - September 2025",
+                    shortName: "devsoc"
                 }
             }}
         />
@@ -37,13 +38,15 @@
                     descriptions: [
                         "Bachelor of Science (Computer Science) w/ Distinction"
                     ],
-                    period: "February 2022 - August 2025"
+                    period: "February 2022 - August 2025",
+                    shortName: "unsw"
                 },
                 "Sydney Technical High School": {
                     descriptions: [
-                        "High School Diploma"
+                        "HSC"
                     ],
-                    period: "January 2016 - September 2021"
+                    period: "January 2016 - September 2021",
+                    shortName: "sths"
                 }
             }}
         />
@@ -51,6 +54,10 @@
 </section>
 
 <style>
+    section {
+        height: 70vh;
+    }
+
     .experience-listings {
         display: flex;
         flex-direction: column;

@@ -5,7 +5,6 @@
 </script>
 
 <div class="tech-stack">
-    <h4>Tech Stack</h4>
     <ul class="tech-stack-listings">
         {#each techStack as tech}
             <li class="tech-stack-listing">
@@ -18,7 +17,7 @@
 
 <style>
     i {
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     ul {
@@ -33,9 +32,10 @@
     }
 
     .tech-stack-listings {
-        display: grid;
-        grid-template-columns: repeat(4, 7rem);
-        gap: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem;
 
         p {
             margin: 0;
@@ -43,12 +43,14 @@
     }
 
     .tech-stack-listing {
-        height: 7rem;
-        width: 7rem;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
+        gap: 0.5rem;
+        
+        padding: 0.5rem;
         border: 1px solid black;
+        border-radius: 0.5rem;
     }
 </style>
