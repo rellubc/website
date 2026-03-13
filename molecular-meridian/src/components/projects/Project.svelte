@@ -8,6 +8,12 @@
     export let techStack: string[]
     export let shortName: string
     export let images: number
+
+    const imageUrls: string[] = []
+
+    for (let i = 0; i < images; i++) {
+        imageUrls.push(`/website/${shortName}${i}.png`)
+    }
 </script>
 
 <div class="project-info">
@@ -26,8 +32,8 @@
         <TechStack techStack={techStack} />
     </div>
     <div class="images" style={`grid-template-columns: repeat(${images > 2 ? Math.ceil(images / 2) : images}, 1fr)`}>
-        {#each { length: images } as _, i }
-            <img src={`/website/${shortName}${i}.png`} alt={`${shortName}${i} image`} />
+        {#each imageUrls as url }
+            <img src={url} alt={`${shortName} image`} />
         {/each}
     </div>
 </div>
