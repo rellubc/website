@@ -27,7 +27,7 @@
     </div>
     <div class="images" style={`grid-template-columns: repeat(${images > 2 ? Math.ceil(images / 2) : images}, 1fr)`}>
         {#each { length: images } as _, i }
-            <img src={`/${shortName}${i}.png`} alt={`${shortName}${i} image`}/>
+            <img src={`/website/${shortName}${i}.png`} alt={`${shortName}${i} image`} />
         {/each}
     </div>
 </div>

@@ -9,7 +9,7 @@
         <div class="experience-listing">
             <div class="experience-listing-details">
                 <div class="experience-listing-details-image-container">
-                    <img src={`${value.shortName}icon.${value.shortName === "devsoc" ? "png" : "jpg"}`} alt={`${value.shortName} icon`}/>
+                    <img src={`/website/${value.shortName}icon.${value.shortName === "devsoc" ? "png" : "jpg"}`} alt={`${value.shortName} icon`}/>
                 </div>
                 <div class="experience-listing-details-descriptions">
                     <h4>{key}</h4>

@@ -15,9 +15,9 @@
             <p>I have a strong interest in full stack development with a focus on backend development.</p>
             <p>I love exercising in all forms, particularly calisthenics, bouldering and tennis. I also enjoy being surrounded by nature.</p>
             <div class="about-me-images">
-                <img src="kiama.jpg" alt="kiama lighthouse"/>
-                <img src="sun.jpg" alt="sydney sunset"/>
-                <img src="struggle.png" alt="bouldering"/>
+                <img src="/website/kiama.jpg" alt="kiama lighthouse"/>
+                <img src="/website/sun.jpg" alt="sydney sunset"/>
+                <img src="/website/struggle.png" alt="bouldering"/>
             </div>
             <p>I love learning and working with new technologies. Some technologies I have used so far:</p>
         </div>

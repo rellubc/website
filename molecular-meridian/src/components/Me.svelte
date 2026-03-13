@@ -6,7 +6,7 @@
                 <h1 class="name">Ryan <span class="smile">&#128522;</span></h1>
             </div>
             <div class="me-intro-image">
-                <img src="me.jpg" alt="ryan tran" />
+                <img src="/website/me.jpg" alt="ryan tran" />
             </div>
         </div>
     </div>
