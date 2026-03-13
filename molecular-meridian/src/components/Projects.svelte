@@ -23,7 +23,7 @@
                 "A full stack web application for Baked By Dora, featuring a menu page and an online ordering system through email orders.",
                 "To be officially launched."
             ]}
-            roles="Full-Stack Lead"
+            roles="Full Stack Lead"
             period="December 2025 - Present"
             techStack={["Next.js", "Supabase", "Tailwind CSS"]}
             shortName="bbd"
@@ -33,7 +33,7 @@
             title="EcoM Dashboard"
             descriptions={[
                 "An ESG dashboard web application assisting businesses and investors in exploring, monitoring and reporting ESG metrics.",
-                "Capstone project for my degree."
+                "Completed as part of the capstone project for my degree."
             ]}
             roles="Scrum Master | Frontend Lead"
             period="September 2024 - November 2024"
@@ -57,6 +57,7 @@
             title="Website Portfolio"
             descriptions={[
                 "This site here, made to showcase projects I have undertaken using various technologies.",
+                "Static site deployed to GitHub Pages."
             ]}
             period="March 2026"
             techStack={["HTML", "CSS", "Svelte"]}
