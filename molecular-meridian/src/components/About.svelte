@@ -3,7 +3,7 @@
 
     const languages: string[] = ["HTML", "CSS", "C", "JavaScript", "TypeScript", "Java", "Shell", "Python", "Rust", "C++", "C#"]
 
-    const frameworks: string[] = ["Node.js", "Express", "React", "Tailwind CSS", "Angular", "Next.js", "ASP.NET Core", "Svelte"]
+    const frameworks: string[] = ["Node.js", "Express", "React", "Tailwind CSS", "Angular", "Next.js", "ASP.NET Core", "Astro", "Svelte"]
 
     const tools: string[] = ["GitHub", "PostgreSQL", "Docker", "Jira", "Confluence", "MongoDB", "Supabase", "MySQL"]
 </script>

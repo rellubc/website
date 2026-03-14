@@ -60,7 +60,7 @@
                 "Static site deployed to GitHub Pages."
             ]}
             period="March 2026"
-            techStack={["HTML", "CSS", "Svelte"]}
+            techStack={["HTML", "CSS", "Astro", "Svelte"]}
             shortName="website"
             images=1
         />
