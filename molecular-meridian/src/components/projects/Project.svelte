@@ -50,7 +50,7 @@
         overflow: hidden;
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 768px) {
         .project-info {
             flex-direction: column;
             height: auto;
@@ -85,6 +85,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 1rem;
     }
 
     .images {
@@ -92,8 +93,10 @@
         max-width: 32rem;
 
         flex: 0 0 auto;
+        align-self: center;
 
         display: grid;
+        place-items: center;
 
         border-left: 1px solid #ddd;
 

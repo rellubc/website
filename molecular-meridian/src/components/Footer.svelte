@@ -18,6 +18,7 @@
 <style>
     i {
         font-size: 2rem;
+        max-width: 2rem;
     }
 
     li {
@@ -45,24 +46,25 @@
     }
 
     .contact {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
-    }
-    
-    @media (max-width: 480px) {
-        .contact {
-            flex-direction: column;
-        }
-
-        .right-cluster {
-            flex-direction: column;
-        }
     }
 
     .right-cluster {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
         gap: 2rem;
+    }
+
+    @media (max-width: 640px) {
+        .contact {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .right-cluster {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 </style>

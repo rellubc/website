@@ -31,9 +31,11 @@
 
 <style>
     section {
-        height: 100vh;
+        height: 100%;
         display: flex;
         justify-content: center;
+        
+        margin-bottom: 20%;
     }
 
     .about-me {

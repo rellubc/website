@@ -33,6 +33,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 1rem;
 
         padding: 0 2rem 0 2rem;
     }

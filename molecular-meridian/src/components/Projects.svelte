@@ -72,6 +72,7 @@
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        margin-bottom: 30vh;
+
+        margin-bottom: 10%;
     }
 </style>

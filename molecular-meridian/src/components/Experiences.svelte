@@ -55,10 +55,11 @@
 
 <style>
     section {
-        height: 70vh;
+        margin-bottom: 20%;
     }
 
     .experience-listings {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }

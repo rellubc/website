@@ -28,14 +28,15 @@
 
     .me-intro {
         width: 100%;
-        height: 70vh;
+        max-height: 70vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 8rem;
 
-        padding-bottom: 30vh;
+        margin-top: 10%;
+        margin-bottom: 35%;
 
         h1 {
             margin: 0;
@@ -62,8 +63,8 @@
     }
 
     .me-intro-image {
-        height: 25rem;
-        width: 25rem;
+        width: min(25rem, 100%);
+        aspect-ratio: 1 / 1;
 
         display: flex;
         justify-content: center;
@@ -77,6 +78,13 @@
             width: 100%;
             height: 100%;
             border-radius: 100%;
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .me-intro {
+            flex-direction: column;
+            gap: 2rem;
         }
     }
 
