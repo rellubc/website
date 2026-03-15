@@ -24,7 +24,7 @@
                 "To be officially launched."
             ]}
             roles="Full Stack Lead"
-            period="December 2025 - Present"
+            period="November 2025 - January 2026"
             techStack={["Next.js", "Supabase", "Tailwind CSS"]}
             shortName="bbd"
             images=1
